@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+
+header:hover {
+    height: 58px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    z-index: 3;    
+}
+.main-header {
+    text-align:center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    margin-right: 400px;
+
+}
+.main-header:hover {
+    color: #4CAF50;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+.top-header {
+    display: inline-block;
+    width: 100%;
+   
+
+    
+}
+.pos-logo {
+    display: inline-block;
+    top: 10px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    vertical-align: middle;
+    margin-left: 27px;
+}
+.search-box {
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 50px;
+    vertical-align: middle;
+}
+.vector-icon {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 450px;
+    vertical-align: middle;
+    text-align: left;
+    
+}
+.date-top {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #000000;
+}
+.btn {
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+button:active {
+    background-color: #3e8e41;
+}
+main{
+    display: inline-block;
+    text-align: center;
+    margin-left: 139px;
+    position:relative;
+    z-index: 1;
+    
+}
+.image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-left: 27px;  
+    align-items: center; 
+}
+
+.card:hover{
+    width: 203px;
+    height: 214px;
+    background-color: #ECEDED;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 143px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;   
+}
+figcaption {
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+figcaption:hover {
+    color: #4CAF50;
+    cursor: pointer;
+}
+.category {
+    display: inline-block;
+    width: 178px;
+    height: 23px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    transform: translate(0);
+}
+.category-text {
+    display: inline-block;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #000000;
+    vertical-align: middle;
+    transform: translateX(-30%);    
+}
+.initial-icon img {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 20px;
+    transform: translateX(30%);
+}
+.pepper-icon img {
+    display: inline-block;
+    width: 38px;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: translateX(40%);
+}
+.footer-container:hover {
+    display: inline-block;
+    width: 949px;
+    height: 106px;
+    background-color: #EAF0F0;  
+    position: relative;
+    z-index: 2;
+    top: -40px;
+}
+.footer {
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.starter {
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    background-color: #4A5C2F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 150px;
+    vertical-align: middle;
+    cursor: pointer;
+    
+}
+.footer-text {
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    vertical-align: middle;
+}
+.footer-container img {
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
